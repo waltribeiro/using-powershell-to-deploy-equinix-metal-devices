@@ -86,13 +86,9 @@ The 1st way is to Right click on the file > Properties > Security  > Edit
 
 ![image 09](images/image-09.png)
 
-According to “Right click on the file > Properties > Security  > Edit” the file already has `RWX` permission. In that case I can skip to the [#metal-init](#metal-init) section below.
+According to “Right click on the file > Properties > Security  > Edit” the file already has `RWX` permission. In that case I can skip to the [#metal-init-01](#metal-init) section below.
 
-<a name="metal-init">#metal-init</a> section below.
-
-<a name="metal-init">#metal-init</a> section below.
-
-<a name="metal-init"></a> where you want to link to and refer to it on the same page by [metal-init](#metal-init).
+<a name="metal-init-02"></a> where you want to link to and refer to it on the same page by.
 
 
 If the binary doesn’t have execute privileges then allow `Full Control` and press `OK`.
@@ -108,7 +104,7 @@ And then let’s `CD` into the `metal.exe`’s parent directory
 Then run command `icacls 'metal.exe'` which will give it execution permissions. Now onto the next step.
 
 
-<a name="metal-init"></a>### Metal Init
+<a name="metal-init-01"></a>### Metal Init
 
 
 Now the `metal.exe` is ready to be initialized. Run this command:
@@ -209,4 +205,4 @@ At this point, you can do anything. If you want to install a Kubernetes workload
 
 
 
-[metal-init](#metal-init)
+[metal-init-02](#metal-init)
