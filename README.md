@@ -1,1 +1,2 @@
-# using-powershell-to-deploy-equinix-metal-devices
+Read ths post here:
+[https://github.com/waltribeiro/using-powershell-to-deploy-equinix-metal-devices/blob/main/markdown-02.md](https://github.com/waltribeiro/using-powershell-to-deploy-equinix-metal-devices/blob/main/markdown-02.md)
