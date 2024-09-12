@@ -86,9 +86,22 @@ The 1st way is to Right click on the file > Properties > Security  > Edit
 
 ![image 09](images/image-09.png)
 
-According to “Right click on the file > Properties > Security  > Edit” the file already has `RWX` permission. In that case I can skip to the [#metal-init-01](#metal-init) section below.
+According to “Right click on the file > Properties > Security  > Edit” the file already has `RWX` permission. In that case I can skip to the TESTING-02
+[#metal-init-01](#metal-init) section below.
 
-<a name="metal-init-02"></a> where you want to link to and refer to it on the same page by.
+TESTING-03
+TESTING-03
+TESTING-03
+TESTING-03
+TESTING-03
+TESTING-03
+TESTING-03
+TESTING-03
+TESTING-03
+TESTING-03
+TESTING-03
+TESTING-03
+TESTING-03<a name="metal-init-02"></a> where you want to link to and refer to it on the same page by.
 
 
 If the binary doesn’t have execute privileges then allow `Full Control` and press `OK`.
@@ -104,6 +117,7 @@ And then let’s `CD` into the `metal.exe`’s parent directory
 Then run command `icacls 'metal.exe'` which will give it execution permissions. Now onto the next step.
 
 
+TESTING-06
 <a name="metal-init-01"></a>### Metal Init
 
 
@@ -135,6 +149,7 @@ Run command:
 `$ export METAL_AUTH_TOKEN=<your_API_TOKEN>`
 
 Similar to our Authentication Readme (https://deploy.equinix.com/developers/docs/metal/libraries/cli/#authentication)
+
 
 ![image 12](images/image-12.png)
 
@@ -205,4 +220,5 @@ At this point, you can do anything. If you want to install a Kubernetes workload
 
 
 
+TESTING-04
 [metal-init-02](#metal-init)
