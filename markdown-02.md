@@ -93,7 +93,7 @@ According to “Right click on the file > Properties > Security  > Edit” the f
 
 If the binary doesn’t have execute privileges then allow `Full Control` and press `OK`.
 
-- If you prefer to change permission using PowerShell, then drag-and-drop the file into the PowerShell window. There you’ll easily get the $PATH, in this case it’s C:\Users\Admin\Desktop\metal.exe
+- If you prefer to change permission using PowerShell, then drag-and-drop the file into the PowerShell window. There you’ll easily get the $PATH, in this case it’s `C:\Users\Admin\Desktop\metal.exe`
 
 ![image 10](images/image-10.png)
 
@@ -141,7 +141,7 @@ Similar to our Authentication Readme (https://deploy.equinix.com/developers/docs
 
 Great – now we have the Metal CLI installed. Run this command to make sure it’s working:
 
-$ metal man
+`$ metal man`
 
 
 ### Deploy our first server
