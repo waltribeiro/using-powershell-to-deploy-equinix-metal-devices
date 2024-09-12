@@ -86,22 +86,7 @@ The 1st way is to Right click on the file > Properties > Security  > Edit
 
 ![image 09](images/image-09.png)
 
-According to “Right click on the file > Properties > Security  > Edit” the file already has `RWX` permission. In that case I can skip to the TESTING-02
-[#metal-init-01](#metal-init) section below.
-
-TESTING-03
-TESTING-03
-TESTING-03
-TESTING-03
-TESTING-03
-TESTING-03
-TESTING-03
-TESTING-03
-TESTING-03
-TESTING-03
-TESTING-03
-TESTING-03
-TESTING-03<a name="metal-init-02"></a> where you want to link to and refer to it on the same page by.
+According to “Right click on the file > Properties > Security  > Edit” the file already has `RWX` permission. In that case I can skip to the [#metal-init-01](#metal-init) section below.
 
 
 If the binary doesn’t have execute privileges then allow `Full Control` and press `OK`.
@@ -117,8 +102,7 @@ And then let’s `CD` into the `metal.exe`’s parent directory
 Then run command `icacls 'metal.exe'` which will give it execution permissions. Now onto the next step.
 
 
-TESTING-06
-<a name="metal-init-01"></a>### Metal Init
+### Metal Init
 
 
 Now the `metal.exe` is ready to be initialized. Run this command:
@@ -155,7 +139,6 @@ Similar to our Authentication Readme (https://deploy.equinix.com/developers/docs
 
 
 Great – now we have the Metal CLI installed. Run this command to make sure it’s working:
-
 `$ metal man`
 
 
@@ -163,14 +146,10 @@ Great – now we have the Metal CLI installed. Run this command to make sure it�
 
 
 Now that Metal CLI is installed, let’s use it to deploy a server using this boilerplate syntax:
-
-
 `$ metal device create -p <project_id> (-m <metro> | -f <facility>) -P <plan> -H <hostname> -O <operating_system>`
 
 
 Here’s what I’ll send:
-
-
 `$ metal device create -p a15735f1-ded8-4c10-8dc1-330d6f159732 -m ny -P c3.small.x86 -H walt-windows -0 ubuntu_24_04`
 
 
@@ -190,7 +169,6 @@ Check out the Equinix Metal CLI Reference to launch your own configurations – 
 
 
 Now let’s access our server from the Windows laptop.
-
 
 `$ ssh root@147.75.193.171`
 
@@ -216,9 +194,3 @@ Congrats – we now have:
 
 
 At this point, you can do anything. If you want to install a Kubernetes workload cluster with K3s then we have a Doc for that.
-
-
-
-
-TESTING-04
-[metal-init-02](#metal-init)
